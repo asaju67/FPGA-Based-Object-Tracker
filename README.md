@@ -1,4 +1,4 @@
-# Object Centering System Using FPGA
+# Object Tracking System Using FPGA
 
 This project implements an object-centering system on an FPGA platform, utilizing an Opal Kelly interface with a CMV300 image sensor and an LSM303DLHC IMU. The system computes the center of mass from the camera's captured image and dynamically adjusts a motor to center the object within the frame.
 
