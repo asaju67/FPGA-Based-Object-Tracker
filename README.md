@@ -67,5 +67,6 @@ This project implements an object-centering system on an FPGA platform, utilizin
 ## Future Improvements
 
 - Implement advanced algorithms for object tracking.
+- Establish a quadratic relationship between the number of pulses according to the object's x position. 
 
 ---
