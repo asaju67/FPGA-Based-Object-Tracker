@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a75tfgg484-1" LaunchTime="1734410655" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/BTPipeExample.dcp">
+  <File Type="PA-TCL" Name="JTEG_Test_File.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="JTEG_Test_File_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="JTEG_Test_File_reports.tcl"/>
+  <File Type="RDS-RDS" Name="JTEG_Test_File.vds"/>
+  <File Type="RDS-UTIL" Name="JTEG_Test_File_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="JTEG_Test_File_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="JTEG_Test_File.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="JTEG_Test_File_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="JTEG_Test_File_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/ClockGenerator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/ClockGenerator.v"/>
+        <Attr Name="ImportTime" Val="1729789841"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/I2C_Transmit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/SPI.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/SPI.v"/>
+        <Attr Name="ImportTime" Val="1729790645"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okBTPipeOut.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/okBTPipeOut.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okCoreHarness.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/okCoreHarness.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okLibrary.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/okLibrary.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okWireIn.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/okWireIn.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okWireOut.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/okWireOut.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/BTPipeExample.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/BTPipeExample.v"/>
+        <Attr Name="ImportTime" Val="1731617485"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okLibrary.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okLibrary.vhd"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okBTPipeIn.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okBTPipeIn.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okPipeIn.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okPipeIn.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okPipeOut.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okPipeOut.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okRegisterBridge.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okRegisterBridge.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okTriggerIn.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okTriggerIn.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okTriggerOut.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okTriggerOut.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="JTEG_Test_File"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/xem7310_v1.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/BTPipeExample.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+</GenRun>

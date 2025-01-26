@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a75tfgg484-1" LaunchTime="1734410656">
+  <File Type="ROUTE-PWR" Name="JTEG_Test_File_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="JTEG_Test_File.tcl"/>
+  <File Type="BITSTR-MMI" Name="JTEG_Test_File.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="JTEG_Test_File_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="JTEG_Test_File_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="JTEG_Test_File_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="JTEG_Test_File_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="JTEG_Test_File_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="JTEG_Test_File_opt.dcp"/>
+  <File Type="OPT-DRC" Name="JTEG_Test_File_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="JTEG_Test_File.hwdef"/>
+  <File Type="PWROPT-DCP" Name="JTEG_Test_File_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="JTEG_Test_File_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="JTEG_Test_File_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="JTEG_Test_File_placed.dcp"/>
+  <File Type="PLACE-IO" Name="JTEG_Test_File_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="JTEG_Test_File_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="JTEG_Test_File_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="JTEG_Test_File_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="JTEG_Test_File_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="JTEG_Test_File_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="JTEG_Test_File_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="JTEG_Test_File.bin"/>
+  <File Type="PLACE-TIMING" Name="JTEG_Test_File_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="JTEG_Test_File_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="JTEG_Test_File.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="JTEG_Test_File_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="JTEG_Test_File_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="JTEG_Test_File_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="JTEG_Test_File.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="JTEG_Test_File_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="JTEG_Test_File_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="JTEG_Test_File_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="JTEG_Test_File_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="JTEG_Test_File_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="JTEG_Test_File_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="JTEG_Test_File_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="JTEG_Test_File_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="JTEG_Test_File_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="JTEG_Test_File_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="JTEG_Test_File_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="JTEG_Test_File_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="JTEG_Test_File_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="JTEG_Test_File_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="JTEG_Test_File_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="JTEG_Test_File_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="JTEG_Test_File_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="JTEG_Test_File_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="JTEG_Test_File_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="JTEG_Test_File_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="JTEG_Test_File_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="JTEG_Test_File_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="JTEG_Test_File_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="JTEG_Test_File_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="JTEG_Test_File_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="JTEG_Test_File_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="JTEG_Test_File_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="JTEG_Test_File.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="JTEG_Test_File_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="JTEG_Test_File_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="JTEG_Test_File.nky"/>
+  <File Type="BITSTR-BMM" Name="JTEG_Test_File_bd.bmm"/>
+  <File Type="PDI-FILE" Name="JTEG_Test_File.pdi"/>
+  <File Type="RCFI_FILE" Name="JTEG_Test_File.rcfi"/>
+  <File Type="CFI_FILE" Name="JTEG_Test_File.cfi"/>
+  <File Type="RNPI_FILE" Name="JTEG_Test_File.rnpi"/>
+  <File Type="NPI_FILE" Name="JTEG_Test_File.npi"/>
+  <File Type="RBD_FILE" Name="JTEG_Test_File.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="JTEG_Test_File.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="JTEG_Test_File.sysdef"/>
+  <File Type="BG-BGN" Name="JTEG_Test_File.bgn"/>
+  <File Type="BG-DRC" Name="JTEG_Test_File.drc"/>
+  <File Type="RDI-RDI" Name="JTEG_Test_File.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="JTEG_Test_File_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="JTEG_Test_File_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/ClockGenerator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/ClockGenerator.v"/>
+        <Attr Name="ImportTime" Val="1729789841"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/I2C_Transmit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/SPI.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/SPI.v"/>
+        <Attr Name="ImportTime" Val="1729790645"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okBTPipeOut.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/okBTPipeOut.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okCoreHarness.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/okCoreHarness.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okLibrary.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/okLibrary.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okWireIn.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/okWireIn.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okWireOut.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/okWireOut.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/BTPipeExample.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/BTPipeExample.v"/>
+        <Attr Name="ImportTime" Val="1731617485"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okLibrary.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okLibrary.vhd"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okBTPipeIn.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okBTPipeIn.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okPipeIn.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okPipeIn.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okPipeOut.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okPipeOut.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okRegisterBridge.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okRegisterBridge.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okTriggerIn.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okTriggerIn.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_93/okTriggerOut.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/okTriggerOut.v"/>
+        <Attr Name="ImportTime" Val="1686667912"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="JTEG_Test_File"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/xem7310_v1.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/BTPipeExample.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+</GenRun>
